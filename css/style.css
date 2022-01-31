@@ -1,0 +1,74 @@
+body{
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+}
+header{
+    text-align: center;
+    color: skyblue;
+    font-size: 250%;
+    padding-bottom: 1%;
+}
+#wrapper{
+    background-color: rgba(0,0,0,0.3);
+    width: 65%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav{
+    display: flex;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rows{
+    text-align: center;
+    font-size: 300%;
+    background-color: rgb(95, 0, 179, 0.6);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    padding: 1%;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+.rows:hover{
+    background-color: #5F00B3;
+}
+audio{
+    width: 40vw;
+    padding: 1%;
+}
+h2{
+    width: 200%;
+    color: greenyellow;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+.links{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.links img{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1%;
+}
+.links h3{
+    color: white;
+    font-size: 250%;
+    text-align: center;
+    text-decoration: none;
+}
+.links img:hover{
+    width: 82%;
+    padding-bottom: 0;
+}
